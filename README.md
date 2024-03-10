@@ -10,3 +10,4 @@ Question-2
 Draw a feature collection of 5 polygons covering water bodies in your area
 
 GEE Code link -https://code.earthengine.google.com/ce8913e0d38cc9460dfa0b9b6547a769
+Image Link- class 8_ Question 2.png
