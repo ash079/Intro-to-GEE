@@ -1,4 +1,4 @@
-Question-1
+*****Question-1
 
 [4,5,7,8,,9] 
 
@@ -14,7 +14,7 @@ var value= numlist.map(function(num){
 })
 print (value)
 
-Question-2
+******Question-2
 
 {
 
@@ -51,5 +51,13 @@ var sumNum= newlist.reduce(ee.Reducer.sum())
 
 print (sumNum)
 
+
+**** Question-3
+
+Upload upazila boundary shape file of Bangladesh to GEE asset tab. 
+Filter out your desired upazila, and print the area, and perimeter of your upazila. 
+Finally, show your upazila in the map.
+
+GEE Code Link - https://code.earthengine.google.com/faa2a21561ed23ec917321678ce481a9
 
 
