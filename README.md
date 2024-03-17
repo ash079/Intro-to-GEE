@@ -1,4 +1,4 @@
-Question - 1 
+Question - 1
 
 Draw a rectangle, a point, and a polygon in Google Earth Engine
 
@@ -23,4 +23,12 @@ Question- 4
 Change the division name to mine and uploading division map
 
 [Image Link](https://github.com/ash079/Intro-to-GEE/blob/main/Chittagong%20Boundary.png)
+
+Class- 9
+
+Upload upazila boundary shape file of Bangladesh to GEE asset tab. Filter out your desired upazila, and print the area, and perimeter of your upazila. Finally, show your upazila in the map. Take a screenshot of the map. Upload the screenshot, GEE code link in your github repo. Submit your repo link.
+
+[GEE Code Link](https://code.earthengine.google.com/faa2a21561ed23ec917321678ce481a9)
+
+[Image Link](https://github.com/ash079/Intro-to-GEE/blob/main/bd%20boundary.png)
 
