@@ -1,0 +1,55 @@
+Question-1
+
+[4,5,7,8,,9] 
+
+Convert the list into a GEE List object. Apply the map method and multiply the value of each element of the list by 4. Finally print the multiplied list.
+
+var list= [4,5,7,8,9]
+var numlist= ee.List(list)
+print (numlist)
+
+var value= numlist.map(function(num){
+  var num=ee.Number(num)
+  return num.multiply(4)
+})
+print (value)
+
+Question-2
+
+{
+
+  "name":"Your_name",
+
+  "hobby":"reading",
+
+  "numList":[2,3,4,5,6,7,9]
+
+}
+
+Convert above key-value pair into a GEE Dictionary object. Get the numList from the dictionary. Apply reducer to the list and print the sum of the numList.
+
+var myDict = ee.Dictionary({
+
+  "name":"Your_name",
+
+  "hobby":"reading",
+
+  "numList":[2,3,4,5,6,7,9]
+
+})
+
+print (myDict)
+
+
+var list = myDict.get("numList");
+print (list)
+var newlist= ee.List(list)
+
+var sumNum= newlist.reduce(ee.Reducer.sum())
+
+
+
+print (sumNum)
+
+
+
