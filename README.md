@@ -30,5 +30,5 @@ Upload upazila boundary shape file of Bangladesh to GEE asset tab. Filter out yo
 
 [GEE Code Link](https://code.earthengine.google.com/faa2a21561ed23ec917321678ce481a9)
 
-[Image Link](https://github.com/ash079/Intro-to-GEE/blob/main/class%209noakhali%20sadar%20map.png)
+[Image Link](https://github.com/ash079/Intro-to-GEE/blob/main/class%209_noakhali%20sadar%20map.png)
 
