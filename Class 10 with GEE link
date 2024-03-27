@@ -1,0 +1,19 @@
+Question-1
+
+Make a RGB composite from any image collection for your Upazila. Upload the code and code link, and screenshot in your GitHub  repo. Submit your repo link.
+
+
+GEE Link- https://code.earthengine.google.com/8ce00563645b89d5320ac14fe450eda3
+
+
+Question-2 
+
+Make a False color composite from any image collection for your Upazila. Upload the code and code link, and screenshot in your GitHub  repo. Submit your repo link.
+
+
+GEE Link- https://code.earthengine.google.com/060d02826bb2c9358987e76982618a0f
+
+Select an image collection of any Satellite, filter by boundary and date. Finally, select an image from the collection, and print the capture date of that image. 
+Upload the code and code link, and screenshot in your GitHub  repo. Submit your repo link.
+
+GEE Link- https://code.earthengine.google.com/492bb20f4419361c670bc7efa0cb3f44
