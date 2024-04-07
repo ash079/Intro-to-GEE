@@ -32,3 +32,54 @@ Upload upazila boundary shape file of Bangladesh to GEE asset tab. Filter out yo
 
 [Image Link](https://github.com/ash079/Intro-to-GEE/blob/main/class%209_noakhali%20sadar%20map.png)
 
+Class-10
+Ques-1 Make a RGB composite from any image collection for your Upazila. Upload the code and code link, and screenshot in your GitHub  repo. Submit your repo link.
+
+[GEE Code Link](https://code.earthengine.google.com/8ce00563645b89d5320ac14fe450eda3)
+
+[Image Link](https://github.com/ash079/Intro-to-GEE/blob/main/class10_RGB.png)
+
+Ques-2 Make a False color composite from any image collection for your Upazila. Upload the code and code link, and screenshot in your GitHub  repo. Submit your repo link.
+[GEE Code Link](https://code.earthengine.google.com/060d02826bb2c9358987e76982618a0f)
+
+[Image Link](https://github.com/ash079/Intro-to-GEE/blob/main/class10_False.png)
+
+Ques-3 Select an image collection of any Satellite, filter by boundary and date. Finally, select an image from the collection, and print the capture date of that image. 
+Upload the code and code link, and screenshot in your GitHub  repo. Submit your repo link.
+
+[GEE Code link](https://code.earthengine.google.com/492bb20f4419361c670bc7efa0cb3f44)
+
+[Image Link](https://github.com/ash079/Intro-to-GEE/blob/main/class10.capture.png)
+
+Class-11 
+
+Ques-1 Make a NDVI map of your Upazila by using Landsat 9 imagery for 2022. Upload the code, code link, and screenshot in your GitHub repo. Submit the repo link.
+
+[GEE code link](https://code.earthengine.google.com/9f2d576fe6942c8290838fd9d1390b90)
+
+
+[Image Link](https://github.com/ash079/Intro-to-GEE/blob/main/ndvi_Class11.png)
+
+
+Ques-2 Calculate the maximum and minimum NDVI value of your NDVI map. Upload the code, code link, and screenshot in your GitHub repo. Submit the repo link.
+
+
+[GEE code link](https://code.earthengine.google.com/574813e44fa97374733bc3a02a51306b)
+
+
+[Image Link](https://github.com/ash079/Intro-to-GEE/blob/main/NDVI_minmax_Class11.png)
+
+
+Ques-3 Make a NDWI map of your Upazila by using Sentinel-2 imagery for 2023. Upload the code, code link, and screenshot in your GitHub repo. Submit the repo link.
+
+[GEE code link](https://code.earthengine.google.com/28552b16952bbfa2e00e6613679c9676)
+
+[Image Link](https://github.com/ash079/Intro-to-GEE/blob/main/NDWI%20Class%2011.png)
+
+
+Ques-4 Make a NDSI map of your Upazila by using Sentinel-2 imagery for 2021. Upload the code, code link, and screenshot in your GitHub repo. Submit the repo link.
+
+
+[GEE code link](https://code.earthengine.google.com/18526b639acd4bb624f950dec94ed675)
+
+[Image link](https://github.com/ash079/Intro-to-GEE/blob/main/NDSI%20Image%20Class11.png)
