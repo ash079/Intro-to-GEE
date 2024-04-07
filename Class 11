@@ -1,0 +1,143 @@
+****Make a NDVI map of your Upazila by using Landsat 9 imagery for 2022. ////////////////
+
+print (table.first())
+var roi= table.filter(ee.Filter.eq("NAME_3", "Noakhali S."))
+ 
+print(roi);
+
+
+
+  Map.centerObject(roi);
+  Map.addLayer(roi,{},"Noakhali S.");
+var s2= ee.ImageCollection("LANDSAT/LC09/C02/T1_TOA") 
+.filterBounds(roi)
+.filterDate( "2022-01-01","2022-12-30")
+.filter(ee.Filter.lt("CLOUD_COVER_LAND",5))
+.first()
+.select(["B5","B4","B3","B2"])
+
+Map.addLayer(s2.clip(roi),{},"RGB Image")
+print(s2)
+
+
+var ndvi= s2.normalizedDifference(["B5","B4"]).rename("NDVI")
+print (ndvi,"ndvi image")
+var visParam = {
+  min: -1,
+  max: 1,
+  palette:["blue","cyan","green"]
+}
+Map.addLayer(ndvi.clip(roi), visParam,"NDVI Image")
+
+
+GEE LINK- https://code.earthengine.google.com/9f2d576fe6942c8290838fd9d1390b90
+
+
+
+*** Calculate the maximum and minimum NDVI value of your NDVI map.///////////////////
+
+print (table.first())
+var roi= table.filter(ee.Filter.eq("NAME_3", "Noakhali S."))
+ 
+print(roi);
+
+
+
+  Map.centerObject(roi);
+  Map.addLayer(roi,{},"Noakhali S.");
+var s2= ee.ImageCollection("LANDSAT/LC09/C02/T1_TOA") 
+.filterBounds(roi)
+.filterDate( "2022-01-01","2022-12-30")
+.filter(ee.Filter.lt("CLOUD_COVER_LAND",5))
+.first()
+.select(["B5","B4","B3","B2"])
+
+Map.addLayer(s2.clip(roi),{},"RGB Image")
+print(s2)
+
+
+var ndvi= s2.normalizedDifference(["B5","B4"]).rename("NDVI")
+print (ndvi,"ndvi image")
+var visParam = {
+  min: -1,
+  max: 1,
+  palette:["blue","cyan","green"]
+}
+Map.addLayer(ndvi.clip(roi), visParam,"NDVI Image")
+var stat= ndvi.reduceRegion({
+  reducer:ee.Reducer.minMax(),
+  geometry:roi,
+  scale:10,
+  bestEffort:true
+})
+
+print (stat)
+
+GEE LINK- https://code.earthengine.google.com/574813e44fa97374733bc3a02a51306b
+
+
+****Make a NDSI map of your Upazila by using Sentinel-2 imagery for 2021.///////////////
+
+var roi = table.filter(ee.Filter.eq("NAME_3", "Noakhali S."));
+
+print(roi);
+
+Map.centerObject(roi);
+Map.addLayer(roi, {}, "Noakhali S.");
+
+var s2 = ee.ImageCollection("COPERNICUS/S2_SR")
+        .filterBounds(roi)
+        .filterDate("2021-05-01", "2021-07-01")
+        .filter(ee.Filter.lt("CLOUDY_PIXEL_PERCENTAGE", 5))
+        .first()
+        .select(["B2", "B4", "B3", "B8", "B11"]);
+
+Map.addLayer(s2.clip(roi), {}, "RGB Image");
+
+print(s2);
+
+var ndsi = s2.normalizedDifference(["B3", "B11"]).rename("NDSI");
+
+print(ndsi);
+
+var visParam = {
+  min: -1,
+  max: 1,
+  palette: ["blue", "cyan", "green"]
+};
+
+Map.addLayer(ndsi.clip(roi), visParam, "NDSI Image");
+GEE Link- https://code.earthengine.google.com/18526b639acd4bb624f950dec94ed675
+
+
+*****Make a NDWI map of your Upazila by using Sentinel-2 imagery for 2023///////////////////////////
+
+print (table.first())
+var roi= table.filter(ee.Filter.eq("NAME_3", "Noakhali S."))
+ 
+print(roi);
+
+
+
+  Map.centerObject(roi);
+  Map.addLayer(roi,{},"Noakhali S.");
+var s2= ee.ImageCollection("COPERNICUS/S2_SR")
+.filterBounds(roi)
+.filterDate( "2023-07-01","2023-11-30")
+.filter(ee.Filter.lt("CLOUDY_PIXEL_PERCENTAGE",5))
+.first()
+.select(["B2","B4","B3","B8"])
+
+Map.addLayer(s2.clip(roi),{},"RGB Image")
+print(s2)
+
+
+var ndwi= s2.normalizedDifference(["B3","B8"]).rename("NDWI")
+print (ndwi,"ndwi image")
+var visParam = {
+  min: -1,
+  max: 1,
+  palette:["blue","cyan","green"]
+}
+Map.addLayer(ndwi.clip(roi), visParam,"NDWI Image")
+GEE LInk- https://code.earthengine.google.com/28552b16952bbfa2e00e6613679c9676
