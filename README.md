@@ -116,11 +116,14 @@ Generate two PNG image of your NDVI, and NDMI map by using getThumbURL() functio
 
 [Image link](https://github.com/ash079/Intro-to-GEE/blob/main/NDVI%20PNG%20ThumbURL.png)
 
-
+[Image link](https://github.com/ash079/Intro-to-GEE/blob/main/NDVI%20Code%20ss%20class%2012.png)
 
 ----NDMI
 
 [GEE code link](https://code.earthengine.google.com/b681d978cf61772c7ae53cdf2535bce3)
 
 [Image link](https://github.com/ash079/Intro-to-GEE/blob/main/NDMI%20PNG%20ThumbURL.png)
+
+
+[Image link](https://github.com/ash079/Intro-to-GEE/blob/main/NDMI%20Code%20ss%20class%2012.png)
 
