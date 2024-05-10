@@ -110,3 +110,4 @@ Question - 3
 
 Generate two PNG image of your NDVI, and NDMI map by using getThumbURL() function. Upload the code, code link, and screenshot in your github repo. Submit the repo link.
 
+.
