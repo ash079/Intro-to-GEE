@@ -48,14 +48,14 @@ Ques-2 Make a False color composite from any image collection for your Upazila. 
 
 [Image Link](https://github.com/ash079/Intro-to-GEE/blob/main/class10_False.png)
 
-Ques-3 Select an image collection of any Satellite, filter by boundary and date. Finally, select an image from the collection, and print the capture date of that image. 
+Ques-3 Select an image collection of any Satellite, filter by boundary and date. Finally, select an image from the collection, and print the capture date of that image.
 Upload the code and code link, and screenshot in your GitHub  repo. Submit your repo link.
 
 [GEE Code link](https://code.earthengine.google.com/492bb20f4419361c670bc7efa0cb3f44)
 
 [Image Link](https://github.com/ash079/Intro-to-GEE/blob/main/class10.capture.png)
 
-*****Class-11****** 
+*****Class-11******
 
 Ques-1 Make a NDVI map of your Upazila by using Landsat 9 imagery for 2022. Upload the code, code link, and screenshot in your GitHub repo. Submit the repo link.
 
@@ -87,3 +87,26 @@ Ques-4 Make a NDSI map of your Upazila by using Sentinel-2 imagery for 2021. Upl
 [GEE code link](https://code.earthengine.google.com/18526b639acd4bb624f950dec94ed675)
 
 [Image link](https://github.com/ash079/Intro-to-GEE/blob/main/NDSI%20Image%20Class11.png)
+
+
+Class- 12
+
+Question - 1
+Make a NDVI map of your upazila by using Landsat 9 imagery for 2022. Generate 4 different classes and calculate area for each class by thresholding. Upload the code, code link, and screenshot in your github repo. Submit the repo link.
+
+[GEE code link](https://code.earthengine.google.com/65942dc1b3044895b0a35352729e77a7)
+
+[Image link](https://github.com/ash079/Intro-to-GEE/blob/main/class12_1.png)
+
+Question - 2
+Make a Normalized Difference Moisture Index (NDMI) map of your upazila by using Landsat 9 imagery for 2023. Upload the code, code link, and screenshot in your github repo. Submit the repo link
+
+
+[GEE code link](https://code.earthengine.google.com/875cf5ef5dbf4d11e8ea440b56440f47)
+
+[Image link](https://github.com/ash079/Intro-to-GEE/blob/main/class12_2.png)
+
+Question - 3
+
+Generate two PNG image of your NDVI, and NDMI map by using getThumbURL() function. Upload the code, code link, and screenshot in your github repo. Submit the repo link.
+
