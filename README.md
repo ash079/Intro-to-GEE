@@ -110,4 +110,17 @@ Question - 3
 
 Generate two PNG image of your NDVI, and NDMI map by using getThumbURL() function. Upload the code, code link, and screenshot in your github repo. Submit the repo link.
 
-.
+-----NDVI
+
+[GEE code link](https://code.earthengine.google.com/74c198d45e6aa463e063847d1f65fd29)
+
+[Image link](https://github.com/ash079/Intro-to-GEE/blob/main/NDVI%20PNG%20ThumbURL.png)
+
+
+
+----NDMI
+
+[GEE code link](https://code.earthengine.google.com/b681d978cf61772c7ae53cdf2535bce3)
+
+[Image link](https://github.com/ash079/Intro-to-GEE/blob/main/NDMI%20PNG%20ThumbURL.png)
+
