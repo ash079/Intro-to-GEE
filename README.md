@@ -10,7 +10,7 @@ Draw a rectangle, a point, and a polygon in Google Earth Engine
 
 Question-2 Draw a feature collection of 5 polygons covering water bodies in your area
 
-[GEE Code link ](https://code.earthengine.google.com/f8787e4215b8a598f1668d3b26306bc7)
+[GEE Code link ](https://code.earthengine.google.com/3913e3d03ce8b66ae589506d553bfc8c)
 
 [Image Link](https://github.com/ash079/Intro-to-GEE/blob/main/class%208_%20Question%202.png)
 
