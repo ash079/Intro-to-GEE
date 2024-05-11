@@ -102,7 +102,7 @@ Question - 2
 Make a Normalized Difference Moisture Index (NDMI) map of your upazila by using Landsat 9 imagery for 2023. Upload the code, code link, and screenshot in your github repo. Submit the repo link
 
 
-[GEE code link](https://code.earthengine.google.com/875cf5ef5dbf4d11e8ea440b56440f47)
+[GEE code link](https://code.earthengine.google.com/3913e3d03ce8b66ae589506d553bfc8c)
 
 [Image link](https://github.com/ash079/Intro-to-GEE/blob/main/class12_2.png)
 
