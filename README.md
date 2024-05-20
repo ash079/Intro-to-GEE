@@ -127,3 +127,32 @@ Generate two PNG image of your NDVI, and NDMI map by using getThumbURL() functio
 
 [Image link](https://github.com/ash079/Intro-to-GEE/blob/main/NDMI%20Code%20ss%20class%2012.png)
 
+*****Class - 13
+
+
+Question-1
+
+
+Download this dummy data set from here. Reduce any three column, and group division. Upload the code, code link, and screenshot in your github repo. Submit the repo link.
+
+[GEE code link](https://code.earthengine.google.com/dbe9aa08f1f7a896f8da10f1690c3d97)
+
+[Image link](https://github.com/ash079/Intro-to-GEE/blob/main/class13_1.png)
+
+Question-2
+
+Use this landcover data set and calculate the sum of each class of the band LC_Type1 for your upazila for the year 2021. Upload the code, code link, and screenshot in your github repo. Submit the repo link
+
+[GEE code link]()
+
+[Image link]()
+
+
+Question-3
+Watch this tutorial, and make a map of your district by using QGIS. Upload the map in your github repo, share your map in our facebook group. Give hashtags: #assignment13, #QGISMapping, #geospatialProgramming in your post. Submit the link of your facebook post.
+
+
+
+[Image link](https://github.com/ash079/Intro-to-GEE/blob/main/ctg4.png)
+
+[Facebook Post Link](https://www.facebook.com/photo/?fbid=7366430070092738&set=gm.1144708856842244&idorvanity=902693884377077)
