@@ -143,9 +143,9 @@ Question-2
 
 Use this landcover data set and calculate the sum of each class of the band LC_Type1 for your upazila for the year 2021. Upload the code, code link, and screenshot in your github repo. Submit the repo link
 
-[GEE code link]()
+[GEE code link](https://code.earthengine.google.com/f8d47617f4354f86c132a9b6b587c6f2)
 
-[Image link]()
+[Image link](https://github.com/ash079/Intro-to-GEE/blob/main/class13_2.png)
 
 
 Question-3
